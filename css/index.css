@@ -24,7 +24,7 @@ nav {
 
 footer {
   margin-top: 200px;
-  height: 10px;
+  height: px;
   Width: 100%;
 }
 
@@ -132,7 +132,7 @@ p {
   margin-top: 20px;
   padding-bottom: 10px;
   padding-top: 20px;
-  
+
   border-radius: 5px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
