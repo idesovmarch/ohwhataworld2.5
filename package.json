@@ -1,0 +1,28 @@
+{
+  "name": "ohwhataworld2.0",
+  "version": "2.0.0",
+  "description": "Brad Hammer Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idesovmarch/ohwhataworld2.0.git"
+  },
+  "author": "Brad Hammer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idesovmarch/ohwhataworld2.0/issues"
+  },
+  "homepage": "https://github.com/idesovmarch/ohwhataworld2.0#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat-css": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-layout": "^0.1.0",
+    "noty": "^3.2.0-beta"
+  }
+}
