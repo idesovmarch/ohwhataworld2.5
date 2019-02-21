@@ -1,0 +1,31 @@
+.d-flex {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding: 15px;
+  width: 75%;
+  height: auto;
+  min-height: 400px;
+  background: #fff;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+
+  transition: 0.5s;
+}
+
+body {
+  background-color: #2f3a41;
+  width: 100%;
+  height: auto;
+}
+
+.pagination {
+  background-color: #2f3a41;
+}
+
+footer {
+  background-color: #2f3a41;
+}
+
+.h4 {
+  width: 130%;
+}

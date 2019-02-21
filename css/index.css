@@ -6,14 +6,14 @@ li {
 }
 
 body {
-  background-color: #f8f7f7;
+  background-color: #2f3a41;
   height: auto;
 }
 
 .backgroundStuff {
   background-image: url(../assets/background.svg);
-  width: inherit;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 nav {
@@ -24,11 +24,12 @@ nav {
 
 footer {
   margin-top: 200px;
-  height: px;
+  display: block;
+  height: 40px;
   width: 100%;
 }
 
-a {
+a.nav-link {
   text-decoration: none;
   font-size: 10px;
   font-family: 'Biryani', sans-serif;
@@ -132,11 +133,6 @@ p {
   border-top-right-radius: 0px;
 }
 
-.codeExamples {
-  width: 100%;
-  height: auto;
-}
-
 img {
   width: 400px;
   height: auto;
@@ -163,6 +159,7 @@ img {
   width: 100%;
   height: 60px;
   margin-bottom: 30px;
+  display: block;
 }
 
 @media screen and (max-width: 480px) {
@@ -173,4 +170,24 @@ img {
   #footerText {
     display: none;
   }
+
+  #currentProjects {
+    margin-bottom: 30px;
+  }
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  min-height: 400px;
+  background: #fff;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.card:hover {
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
 }

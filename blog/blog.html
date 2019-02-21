@@ -1,5 +1,3 @@
-﻿<script></script>
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -11,15 +9,16 @@
 
     <!--Style Sheets -->
 
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/bootstrap-grid.css" />
-    <link rel="stylesheet" href="css/bootstrap-reboot.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/hover.css" />
-    <link rel="stylesheet" href="css/all.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/uikit-rtl.css" />
-    <link rel="stylesheet" href="css/uikit.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="../css/animate.css" />
+    <link rel="stylesheet" href="../css/hover.css" />
+    <link rel="stylesheet" href="../css/all.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
+    <link rel="stylesheet" href="../css/uikit-rtl.css" />
+    <link rel="stylesheet" href="../css/uikit.css" />
 
     <link
       rel="stylesheet"
@@ -39,7 +38,7 @@
     />
   </head>
 
-  <body>
+  <body class="blogStyles">
     <header>
       <div></div>
       <!---Navigation Start--->
@@ -50,13 +49,12 @@
       >
         <div
           class="collapse navbar-collapse justify-content bg-light"
-          id=""
           style="width: 50px;"
         >
           <ul class="navbar-nav mr-auto">
             <span class="hvr-underline-from-center"
               ><li class="nav-item active">
-                <a class="nav-link" href="index.html" style="color: #8dc7bc;"
+                <a class="nav-link" href="/index.html" style="color: #8dc7bc;"
                   >Home <span class="sr-only">(current)</span></a
                 >
               </li></span
@@ -83,10 +81,7 @@
             >
             <span class="hvr-underline-from-center"
               ><li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="blog/blog.html"
-                  style="color: #8dc7bc;"
+                <a class="nav-link" href="./blog.html" style="color: #8dc7bc;"
                   >blog</a
                 >
               </li></span
@@ -156,74 +151,60 @@
         </div>
       </nav>
     </header>
-    <div class="backgroundStuff">
-      <!---Start Main Body------->
+    <div class="jumbotron h-100" style="background:#2F3A41">
+      <div class="d-flex">
+        <div class="p-2">
+          <div class="flex-column">
+            <div class="h4 shadow p-4 mb-4 bg-white">blog title</div>
 
-      <img
-        class="img-responsive"
-        src="assets/Untitled.svg"
-        style="padding-top: 40px; height: 50%; width: 50%; margin-bottom: 40px;"
-        onclick="Noty();"
-      />
+            <div class="mb-2 mt-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et.
+            </div>
 
-      <div class="jumbotron h-50">
-        <h2 class="title" id="salutation">I'm Brad</h2>
-
-        <p class="text-body">
-          I am a goofy 28 year old artist, web developer, designer and
-          collector. I have a healthy work ethic and interest in solving others'
-          problems. I currently work in support for a local Indianapolis tech
-          company which has allowed me to grow as both a web and print designer
-          by gaining insight into the product development process and
-          maintaining communication between developers and customers.
-          <br /><br />
-          I have a working knowledge of a variety of web development languages
-          including,
-          <code>HTML5</code>, <code>CSS3</code>, <code>PHP</code>,
-          <code>.Net Core/C#</code>, <code>Javascript</code> and
-          <code>SQL/database design;</code>
-          Most of which I am at a beginner to intermediate level of proficiency.
-        </p>
-        <div class="d-flex justify-content-center">
-          <h3>Contact Me</h3>
-        </div>
-        <div class="d-flex justify-content-center">
-          <p class="badge badge-secondary">idesovmarch@protonmail.com</p>
-        </div>
-        <div class="d-flex justify-content-center">
-          <a
-            href="www.github.com/idesovmarch"
-            type="button"
-            class="btn btn-outline-info mr-3"
-          >
-            <span class="fab fa-github mr-1"></span>Current Projects
-          </a>
-          <a
-            href="https://www.behance.net/user/?username=idesovmarch"
-            type="button"
-            class="btn btn-outline-info"
-          >
-            <span class="fas fa-hand-middle-finger mr-1"></span>Design Portfolio
-          </a>
+            <div class="h5 mt-4">References or Applicable Links</div>
+            <div class="">Links go here plez</div>
+          </div>
         </div>
       </div>
-
-      <!-- RESUME TOGGLE-START-->
-
-      <footer class="text-center">
-        <p id="footerText"></p>
-      </footer>
-
-      <!--Javascript-->
-      <script src="js/jquery/jquery-3.3.1.min.js"></script>
-      <script src="js/popper/popper.js"></script>
-      <script src="js/bootstrap/bootstrap.js"></script>
-      <script src="js/bootstrap/bootstrap.bundle.js"></script>
-      <script src="js/FontAwesome/all.js"></script>
-      <script src="js/uikit/uikit.js"></script>
-      <script src="js/index.js"></script>
-      <script src="node_modules/noty/lib/noty.js"></script>
-      <script></script>
     </div>
+    <footer>
+      <nav
+        aria-label="Page navigation example"
+        style=" background-color: #2f3a41;"
+      >
+        <ul class="pagination justify-content-center mb-4">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link" href="">1</a>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link" href="">2</a>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link disabled" href="">3</a>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="../js/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper/popper.js"></script>
+    <script src="../js/bootstrap/bootstrap.js"></script>
+    <script src="../js/bootstrap/bootstrap.bundle.js"></script>
+    <script src="../js/FontAwesome/all.js"></script>
+    <script src="../js/uikit/uikit.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../node_modules/noty/lib/noty.js"></script>
   </body>
 </html>

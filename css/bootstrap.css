@@ -4892,17 +4892,17 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  color: #2f3a41;
+  background-color:  #dee2e6;
+  border: 1px solid #2f3a41;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: grey;
   text-decoration: none;
-  background-color: #e9ecef;
-  border-color: #dee2e6;
+  background-color:  #dee2e6;
+  border-color: #2f3a41;
 }
 
 .page-link:focus {
@@ -4929,7 +4929,7 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #007bff;
+  background-color: #2f3a41;
   border-color: #007bff;
 }
 
@@ -5088,7 +5088,7 @@ a.badge-dark:hover, a.badge-dark:focus {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-  border-radius: 0.3rem;
+  /*border-radius: 0.3rem;*/
 }
 
 @media (min-width: 576px) {
