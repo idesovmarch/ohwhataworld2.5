@@ -20,6 +20,7 @@ body {
 
 .pagination {
   background-color: #2f3a41;
+  margin-top: 0;
 }
 
 footer {
@@ -28,4 +29,22 @@ footer {
 
 .h4 {
   width: 130%;
+}
+
+#blogTitle {
+  color: #8dc7bc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #8dc7bc;
+  width: inherit;
+}
+
+.mainBox {
+  border-width: 10px;
+  border-style: solid;
+  border-color: #8dc7bc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

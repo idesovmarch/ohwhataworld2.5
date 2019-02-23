@@ -27,6 +27,7 @@
     "express-layout": "^0.1.0",
     "mongo": "^0.1.0",
     "mongoose": "^5.4.14",
-    "noty": "^3.2.0-beta"
+    "noty": "^3.2.0-beta",
+    "react": "^16.8.3"
   }
 }
