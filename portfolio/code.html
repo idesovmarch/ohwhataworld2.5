@@ -9,11 +9,8 @@
 
     <!-- Credit: https://webdesign.tutsplus.com/tutorials/how-to-use-the-behance-api-to-build-a-custom-portfolio-web-page--cms-20884 -->
 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
-
-    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/github-widget.css" />
+    <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/bootstrap.css" />
     <link rel="stylesheet" href="../css/bootstrap-grid.css" />
     <link rel="stylesheet" href="../css/bootstrap-reboot.css" />
@@ -89,58 +86,10 @@
             </div>
         </nav>
     </header>
-    <div id="header" class="portfolio-header clearfix">
-        <script id="profile-template" type="text/x-handlebars-template">
-
-		<h1 class="profile-name">{{user.display_name}}</h1>
-		<div class="profile-fields">
-			<ul class="field-list">
-				{{#each user.fields}}
-					<li class="field-item">{{this}}</li>
-				{{/each}}
-			</ul>
-		</div>
-		<div class="profile-location"><i class="fas fa-map-marker-alt mr-3"></i>{{user.city}}, {{user.country}}</div>
-	</script>
+    <div class="background">
+        <div class="github-widget" data-user="idesovmarch"></div>
     </div>
-    <div id="content" class="content-area clearfix">
-        <div id="portfolio" class="portfolio-area clearfix">
-            <script id="portfolio-template" type="text/x-handlebars-template">
-		<ul class="portfolio-list clearfix">
-			{{#each projects}}
-			<li class="portfolio-item">
-				<div class="portfolio-content">
-					<figure class="portfolio-cover" title="{{this.name}}" data-project-id="{{this.id}}">
-						{{#if this.covers.[404]}}
-						<img class="portfolio-image" src="{{this.covers.[404]}}" alt="">
-						{{else}}
-							{{#if this.covers.[230]}}
-							<img class="portfolio-image" src="{{this.covers.[230]}}" alt="">
-							{{else}}
-							<img class="portfolio-image" src="{{this.covers.[202]}}" alt="">
-							{{/if}}
-						{{/if}}
-					</figure>
-					<h2 class="portfolio-title">{{this.name}}</h2>
-					<div class="portfolio-fields">
-						<ul class="field-list">
-						{{#each this.fields}}
-							<li class="field-item">{{this}}</li>
-						{{/each}}
-						</ul>
-					</div>
-				</div>
-			</li>
-			{{/each}}
-		</ul>
-		</script>
-        </div>
-    </div>
-    <footer id="footer" class="portfolio-footer clearfix">
-
-        <p style="color: #8dc7bc;">Powered by</p>
-        <p><a class="" style="color: #8dc7bc;" href="http://www.behance.net/" title="Behance" target="_blank"><i
-                    class="fab fa-behance fa-lg hvr-icon" style="color: #8dc7bc;"></i></a></p>
+    <footer>
 
     </footer>
 
@@ -158,10 +107,7 @@
     <script src="../js/uikit/uikit.js"></script>
     <script src="../js/index.js"></script>
     <script src="../js/portfolio.js"></script>
-    <script src="../js/handlebars/handlebars-v4.1.1.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
-
-    <script></script>
+    <script src="../js/github-widget/github-widget.js"></script>
 </body>
 
 </html>

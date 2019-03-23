@@ -310,15 +310,11 @@ li {
     list-style: none;
   }
   
-  
-  
   nav {
     width: auto;
     height: 50px;
     background-color: #f8f7f7;
   }
-  
-  
   
   a.nav-link {
     text-decoration: none;
@@ -332,11 +328,9 @@ li {
     margin-left: 10px;
     text-align: left;
   }
-  
   .name {
     text-align: center;
   }
-  
   h2 {
     font-family: 'Lilita One', cursive;
     color: #2f3a41;
@@ -359,9 +353,6 @@ li {
     display: block;
   }
   
- 
-  
-  
   header {
     position: fixed;
     top: 0;
@@ -380,8 +371,6 @@ li {
     padding-left: 20px;
     padding-bottom: 10px;
   }
-  
- 
   
   img {
     width: 400px;
