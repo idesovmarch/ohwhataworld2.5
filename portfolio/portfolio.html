@@ -1,155 +1,166 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Personal Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
 
     <!-- Credit: https://webdesign.tutsplus.com/tutorials/how-to-use-the-behance-api-to-build-a-custom-portfolio-web-page--cms-20884 -->
 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css"
+    />
 
-    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/portfolio.css" />
     <link rel="stylesheet" href="../css/bootstrap.css" />
     <link rel="stylesheet" href="../css/bootstrap-grid.css" />
     <link rel="stylesheet" href="../css/bootstrap-reboot.css" />
     <link rel="stylesheet" href="../css/animate.css" />
     <link rel="stylesheet" href="../css/hover.css" />
     <link rel="stylesheet" href="../css/all.css" />
-    <link rel="stylesheet" href="../css/uikit-rtl.css" />
-    <link rel="stylesheet" href="../css/uikit.css" />
-
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lilita+One" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Biryani:800" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div></div>
-        <!---Navigation Start--->
+      <!---Navigation Start--->
 
-        <nav class="navbar navbar-expand justify-content" style="border-bottom: solid #2F3A41 2px;">
-            <div class="collapse navbar-collapse justify-content bg-light" style="width: 50px;">
-                <ul class="navbar-nav mr-auto">
-                    <span class="hvr-underline-from-center">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/index.html" style="color: #8dc7bc;">Home <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                    </span>
-                    <span class="hvr-underline-from-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html" style="color: #8dc7bc;">Design</a>
-                        </li>
-                    </span>
-                    <span class="hvr-underline-from-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../portfolio/code.html" style="color: #8dc7bc;">Code</a>
-                        </li>
-                    </span>
-                    <span class="hvr-underline-from-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./blog.html" style="color: #8dc7bc;">Blog</a>
-                        </li>
-                    </span>
-                </ul>
+      <nav class="navbar navbar-expand justify-content" style="border-bottom: solid #2F3A41 2px;">
+        <div class="collapse navbar-collapse justify-content bg-light" style="width: 50px;">
+          <ul class="navbar-nav mr-auto">
+            <span class="hvr-underline-from-center">
+              <li class="nav-item active">
+                <a class="nav-link" href="/index.html" style="color: #8dc7bc;"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+            </span>
+            <span class="hvr-underline-from-center">
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html" style="color: #8dc7bc;">Design</a>
+              </li>
+            </span>
+            <span class="hvr-underline-from-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../portfolio/code.html" style="color: #8dc7bc;">Code</a>
+              </li>
+            </span>
+            <span class="hvr-underline-from-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../blog/blog.html" style="color: #8dc7bc;">Blog</a>
+              </li>
+            </span>
+          </ul>
 
-                <!--Social Media Nav-->
-                <div class="socialMedia">
-                    <div class="navbar justify-content-end navbar-expand-md" id="navbarsExample04">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link hvr-icon-hang" href="https://codepen.io/idesovmarch/"><i
-                                        class="fab fa-codepen hvr-icon" style="color: #8dc7bc;"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hvr-icon-hang" href="http://idesovmarch.tumblr.com"><i
-                                        class="fab fa-tumblr fa-lg hvr-icon" style="color: #8dc7bc;"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hvr-icon-hang" href="http://www.linkedin.com/in/idesovmarch"><i
-                                        class="fab fa-linkedin-in fa-lg hvr-icon" style="color: #8dc7bc;"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hvr-icon-hang" href="portfolio.html"><i
-                                        class="fab fa-behance fa-lg hvr-icon" style="color: #8dc7bc;"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hvr-icon-hang" href="http://www.instagram.com/idesovmarch"><i
-                                        class="fab fa-instagram fa-lg hvr-icon" style="color: #8dc7bc;"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+          <!--Social Media Nav-->
+          <div class="socialMedia">
+            <div class="navbar justify-content-end navbar-expand-md" id="navbarsExample04">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="https://codepen.io/idesovmarch/"
+                    ><i class="fab fa-codepen hvr-icon" style="color: #8dc7bc;"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="http://idesovmarch.tumblr.com"
+                    ><i class="fab fa-tumblr fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="http://www.linkedin.com/in/idesovmarch"
+                    ><i class="fab fa-linkedin-in fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="portfolio.html"
+                    ><i class="fab fa-behance fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="http://www.instagram.com/idesovmarch"
+                    ><i class="fab fa-instagram fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
     <div id="header" class="portfolio-header clearfix">
-        <script id="profile-template" type="text/x-handlebars-template">
+      <script id="profile-template" type="text/x-handlebars-template">
 
-		<h1 class="profile-name">{{user.display_name}}</h1>
-		<div class="profile-fields">
-			<ul class="field-list">
-				{{#each user.fields}}
-					<li class="field-item">{{this}}</li>
-				{{/each}}
-			</ul>
-		</div>
-		<div class="profile-location"><i class="fas fa-map-marker-alt mr-3"></i>{{user.city}}, {{user.country}}</div>
-	</script>
+        <h1 class="profile-name">{{user.display_name}}</h1>
+        <div class="profile-fields">
+        	<ul class="field-list">
+        		{{#each user.fields}}
+        			<li class="field-item">{{this}}</li>
+        		{{/each}}
+        	</ul>
+        </div>
+        <div class="profile-location"><i class="fas fa-map-marker-alt mr-3"></i>{{user.city}}, {{user.country}}</div>
+      </script>
     </div>
     <div id="content" class="content-area clearfix">
-        <div id="portfolio" class="portfolio-area clearfix">
-            <script id="portfolio-template" type="text/x-handlebars-template">
-		<ul class="portfolio-list clearfix">
-			{{#each projects}}
-			<li class="portfolio-item">
-				<div class="portfolio-content">
-					<figure class="portfolio-cover" title="{{this.name}}" data-project-id="{{this.id}}">
-						{{#if this.covers.[404]}}
-						<img class="portfolio-image" src="{{this.covers.[404]}}" alt="">
-						{{else}}
-							{{#if this.covers.[230]}}
-							<img class="portfolio-image" src="{{this.covers.[230]}}" alt="">
-							{{else}}
-							<img class="portfolio-image" src="{{this.covers.[202]}}" alt="">
-							{{/if}}
-						{{/if}}
-					</figure>
-					<h2 class="portfolio-title">{{this.name}}</h2>
-					<div class="portfolio-fields">
-						<ul class="field-list">
-						{{#each this.fields}}
-							<li class="field-item">{{this}}</li>
-						{{/each}}
-						</ul>
-					</div>
-				</div>
-			</li>
-			{{/each}}
-		</ul>
-		</script>
-        </div>
+      <div id="portfolio" class="portfolio-area clearfix">
+        <script id="portfolio-template" type="text/x-handlebars-template">
+          <ul class="portfolio-list clearfix">
+          	{{#each projects}}
+          	<li class="portfolio-item">
+          		<div class="portfolio-content">
+          			<figure class="portfolio-cover" title="{{this.name}}" data-project-id="{{this.id}}">
+          				{{#if this.covers.[404]}}
+          				<img class="portfolio-image" src="{{this.covers.[404]}}" alt="">
+          				{{else}}
+          					{{#if this.covers.[230]}}
+          					<img class="portfolio-image" src="{{this.covers.[230]}}" alt="">
+          					{{else}}
+          					<img class="portfolio-image" src="{{this.covers.[202]}}" alt="">
+          					{{/if}}
+          				{{/if}}
+          			</figure>
+          			<h2 class="portfolio-title">{{this.name}}</h2>
+          			<div class="portfolio-fields">
+          				<ul class="field-list">
+          				{{#each this.fields}}
+          					<li class="field-item">{{this}}</li>
+          				{{/each}}
+          				</ul>
+          			</div>
+          		</div>
+          	</li>
+          	{{/each}}
+          </ul>
+        </script>
+      </div>
     </div>
     <footer id="footer" class="portfolio-footer clearfix">
-
-        <p style="color: #8dc7bc;">Powered by</p>
-        <p><a class="" style="color: #8dc7bc;" href="http://www.behance.net/" title="Behance" target="_blank"><i
-                    class="fab fa-behance fa-lg hvr-icon" style="color: #8dc7bc;"></i></a></p>
-
+      <p style="color: #8dc7bc;">Powered by</p>
+      <p>
+        <a
+          class=""
+          style="color: #8dc7bc;"
+          href="http://www.behance.net/"
+          title="Behance"
+          target="_blank"
+          ><i class="fab fa-behance fa-lg hvr-icon" style="color: #8dc7bc;"></i
+        ></a>
+      </p>
     </footer>
 
-
-
-    <script>
-
-    </script>
+    <script></script>
     <!--Javascript-->
     <script src="../js/jquery/jquery-3.3.1.min.js"></script>
     <script src="../js/popper/popper.js"></script>
@@ -163,6 +174,5 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
 
     <script></script>
-</body>
-
+  </body>
 </html>
