@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 /*Navigation Styles*/
 li {
   font-size: 10px;
@@ -190,4 +196,8 @@ img {
 }
 .card:hover {
   box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
+}
+
+.widget-container {
+  margin-top: 60px;
 }
