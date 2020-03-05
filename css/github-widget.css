@@ -9,6 +9,7 @@
   padding: 0.5em 0;
   margin: 0 1.5em 1em 0;
   border-top: 1px solid #ccc;
+  
 }
 .gw-repo:nth-child(2n) {
   margin: 0 0 1em 1.5em;
@@ -18,6 +19,13 @@
 }
 .gw-name {
   font-weight: bold;
+  text-decoration: none;
+  color: #353537;
+}
+.gw-name:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #777;
 }
 .gw-stats {
   display: inline-block;
@@ -47,13 +55,16 @@
 }
 
 .github-widget {
-  margin-top: 110px;
+  margin-top: 1100px;
   margin-left: 100px;
   min-width: 700px;
+  
 }
 
 .background {
   margin-left: 50px;
   width: 75%;
   height: auto;
+  
 }
+
