@@ -20,7 +20,7 @@ body {
   color: #353537;
   font-family: 'Biryani', sans-serif;
   font-weight: 300;
-  max-height: 11200px;
+  height: auto;
 }
 figure {
   margin: 0;

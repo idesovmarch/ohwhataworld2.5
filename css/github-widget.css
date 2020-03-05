@@ -68,3 +68,14 @@
   
 }
 
+@media screen and (max-width: 480px) {
+  .gw-repo-desc {
+    display: none;
+  }
+
+  .gw-repo {
+    padding: 0.5em 0;
+    margin: 10px;
+    border-top: 1px solid #ccc;
+    width: 300px;
+}
