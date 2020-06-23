@@ -23,8 +23,8 @@ body {
 }
 
 nav {
-  width: auto;
-  height: 50px;
+  width: auto !important;
+  height: 60px !important;
   background-color: #f8f7f7;
 }
 
@@ -87,10 +87,11 @@ h4 {
 }
 
 header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
+
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 1 !important;
+  width: 100% !important;
 }
 
 /* Resume Styles */
@@ -139,7 +140,17 @@ p {
   border-top-right-radius: 0px;
 }
 
-img {
+#topLogo {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#portraitImage {
   width: 400px;
   height: auto;
   display: block;
@@ -198,3 +209,73 @@ img {
   box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
 }
 
+.csharp {
+  display: inline;
+  width: 80px;
+  height: auto;
+  margin-bottom: 110px;
+  margin-left: 20px;
+}
+
+.codeIcons {
+  display: block;
+  margin-left: 500px;
+  
+}
+
+.vincitBackground {
+  background-color: #374349;
+ 
+ 
+}
+#vincitBack {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  
+}
+
+#socIcon {
+  font-size: 18px;
+  color: #8dc7bc;
+}
+
+@font-face {
+  font-family: Prospectus;
+  src: url(/assets/fonts/ProspectusStdBlk.otf);
+}
+
+.musicTitle {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+  
+}
+
+.container {
+position: relative;
+overflow: hidden;
+width: 100%;
+
+}
+
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.widget-container{
+  
+  
+}

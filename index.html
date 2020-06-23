@@ -1,11 +1,27 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<script>(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+  0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+  for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+  MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+  mixpanel.init("1ebd227cea00c0166235dfb08fe812b5", {batch_requests: true})</script>
+  
+  
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
     <title>hello, friend</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123989485-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123989485-1');
+</script>
 
     <!--Style Sheets -->
 
@@ -31,6 +47,7 @@
   </head>
 
   <body>
+    
     <header>
       <div></div>
       <!---Navigation Start--->
@@ -40,19 +57,24 @@
           <ul class="navbar-nav mr-auto">
             <span class="hvr-underline-from-center">
               <li class="nav-item active">
-                <a class="nav-link" href="/" style="color: #2F3A41;">Home </a>
+                <a class="nav-link" href="/" style="color: #2F3A41; font-size:12px;">Home </a>
               </li>
             </span>
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="/portfolio/portfolio.html" style="color: #2F3A41;"
+                <a class="nav-link" href="/portfolio/portfolio.html" style="color: #2F3A41; font-size:12px;"
                   >Design</a
                 >
               </li>
             </span>
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="/portfolio/code.html" style="color: #2F3A41;">Code</a>
+                <a class="nav-link" href="/portfolio/code.html" style="color: #2F3A41; font-size:12px;">Code</a>
+              </li>
+            </span>
+            <span class="hvr-underline-from-center">
+              <li class="nav-item">
+                <a class="nav-link" href="/music/music.html" style="color: #2F3A41; font-size:12px;">Music</a>
               </li>
             </span>
             
@@ -64,27 +86,27 @@
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="https://codepen.io/idesovmarch/"
-                    ><i class="fab fa-codepen hvr-icon" style="color: #8dc7bc;"></i
+                    ><i class="fab fa-codepen hvr-icon" id="socIcon" style="color: #8dc7bc; font-size:18px;"></i
                   ></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="http://idesovmarch.tumblr.com"
-                    ><i class="fab fa-tumblr fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                    ><i class="fab fa-tumblr fa-lg hvr-icon" style="color: #8dc7bc; font-size:18x; margin-top:2px;"></i
                   ></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="http://www.linkedin.com/in/idesovmarch"
-                    ><i class="fab fa-linkedin-in fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                    ><i class="fab fa-linkedin-in fa-lg hvr-icon" id="socIcon" style="color: #8dc7bc; font-size:18px;"></i
                   ></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="portfolio/portfolio.html"
-                    ><i class="fab fa-behance fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                    ><i class="fab fa-behance fa-lg hvr-icon" id="socIcon" style="color: #8dc7bc; font-size:18px;"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link hvr-icon-hang" href="http://www.instagram.com/idesovmarch"
-                    ><i class="fab fa-instagram fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                  <a class="nav-link hvr-icon-hang" href="https://www.instagram.com/oh_whata_world"
+                    ><i class="fab fa-instagram fa-lg hvr-icon" id="socIcon"style="color: #8dc7bc; font-size:18px;"></i
                   ></a>
                 </li>
               </ul>
@@ -100,6 +122,7 @@
 
       <img
         class="img-responsive"
+        id="topLogo"
         src="assets/logoWeb.png"
         style="padding-top: 40px; height: auto; width: 50%; margin-bottom:250px;"
       />
@@ -108,22 +131,34 @@
       
       <!--<div class="jumbotron h-100">-->
         
-        <img class="img-fluid" src="assets/portrait.png" />
+        <img class="img-fluid" id="portraitImage" src="assets/portrait.png" />
       <!--</div>-->
       <div class="jumbotron h-100">
         <h2 class="title ml-10" id="salutation">Hey, I'm Brad</h2>       
         <p class="text-body">
           I am a 29 year old artist, web developer, designer and collector. I have a healthy work
-          ethic and interest in solving others' problems. Overall I like to think of myself as a
+          ethic and interest in solving others' problems. Overall, I like to think of myself as a
           tinkerer. I get endless amusment from taking things apart and putting them back together
           again. Websites, tech, mechanical pencils, you name it. It is a thrill to learn something
-          new. I am currently looking for employment as a junior fron-end developer. Where I lack in
-          experience, I make up for it in curiosity and flexibility.
+          new. I am currently working for a Lab Information Systems start-up in Indianapolis IN. 
           <br /><br />
-          I have a working knowledge of a variety of web development languages including,
+          
+          I have a working knowledge of a variety of web development languages including:<br/>
+          <!--
+          <div class="codeIcons">
+          <i class="fab fa-html5 mr-4" style="height:auto; width:60px;"></i>
+          <i class="fab fa-css3-alt mr-4" style="height:auto; width:60px;"></i>
+          <i class="fab fa-php mb-2" style="height:auto; width:80px;"></i>
+          <img src="/assets/icons/csharp.png" class="csharp"/>
+          <i class="fab fa-react ml-4" style="height:auto; width:80px;"></i>
+          <i class="fab fa-node-js ml-4" style="height:auto; width:70px;"></i>
+        </div>
+      -->
           <code>HTML5, CSS3, PHP, .Net Core/C#,
          Javascript(React, Jquery, Node) and
          SQL/database design;</code>
+         <br/>
+         <br/>
           Most of which I am at a beginner to intermediate level of proficiency.
         </p>
         <br/>
@@ -149,20 +184,24 @@
           </a>
         </div>
       </div>
-
-      
+      <div class="vincitBackground">
+        <img src="assets/vincit.png"  class="img-fluid" id="vincitBack"/>
+        </div>
       <!-- RESUME TOGGLE-START-->
 
       <footer class="text-center">
+        <h2 id="href" style="color"></h2>
         <p id="footerText"></p>
-      </footer>
+       
+        <div class="elfsight-app-b53f9e5c-fffc-45f4-a5e7-4efbc2781dac"></div>      </footer>
 
       <!--Javascript-->
+      
       <script
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"
-      ></script>
+        crossorigin="anonymous">
+      </script>
       <script
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
