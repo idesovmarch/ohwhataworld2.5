@@ -92,5 +92,10 @@ $(document).ready(function() {
         localStorage.setItem(keyName, data);
       });
     }
+    $(function() {
+      var $this = $(this),
+      projectID = $this.data('project-id')
+      $('#behance-button').behanceButton(projectID); // replace `1234567` with your actual project's ID
+  })
   });
 });

@@ -23,8 +23,8 @@ body {
 }
 
 nav {
-  width: auto;
-  height: 60px;
+  width: auto !important;
+  height: 60px !important;
   background-color: #f8f7f7;
 }
 
@@ -87,10 +87,11 @@ h4 {
 }
 
 header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
+
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 1 !important;
+  width: 100% !important;
 }
 
 /* Resume Styles */
@@ -261,7 +262,7 @@ p {
 position: relative;
 overflow: hidden;
 width: 100%;
-padding-top: 75%;
+
 }
 
 .responsive-iframe {

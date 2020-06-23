@@ -5,6 +5,20 @@
     <title>Personal Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123989485-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123989485-1');
+</script>
+<script>
+$(function() {
+  $('#appreciate_button').behanceButton(this.id);
+})
+</script>
 
     <!-- Credit: https://webdesign.tutsplus.com/tutorials/how-to-use-the-behance-api-to-build-a-custom-portfolio-web-page--cms-20884 -->
 
@@ -37,66 +51,72 @@
     <header>
       <!---Navigation Start--->
 
-      <nav class="navbar navbar-expand justify-content" style="border-bottom: solid #2F3A41 2px;">
-        <div class="collapse navbar-collapse justify-content bg-light" id="" style="width: 50px;">
-          <ul class="navbar-nav mr-auto">
-            <span class="hvr-underline-from-center">
-              <li class="nav-item active">
-                <a class="nav-link" href="/" style="color: #2F3A41;">Home</a>
-              </li>
-            </span>
-            <span class="hvr-underline-from-center">
-              <li class="nav-item">
-                <a class="nav-link" href="/portfolio/portfolio.html" style="color: #2F3A41;"
-                  >Design</a
-                >
-              </li>
-            </span>
-            <span class="hvr-underline-from-center">
-              <li class="nav-item">
-                <a class="nav-link" href="/portfolio/code.html" style="color: #2F3A41;">Code</a>
-              </li>
-            </span>
-          </ul>
+<nav class="navbar navbar-expand justify-content" style="border-bottom: solid #2F3A41 2px;">
+  <div class="collapse navbar-collapse justify-content bg-light" id="" style="width: 50px;">
+    <ul class="navbar-nav mr-auto">
+      <span class="hvr-underline-from-center">
+        <li class="nav-item active">
+          <a class="nav-link" href="/" style="color: #2F3A41; font-size:12px;">Home </a>
+        </li>
+      </span>
+      <span class="hvr-underline-from-center">
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio/portfolio.html" style="color: #2F3A41; font-size:12px;"
+            >Design</a
+          >
+        </li>
+      </span>
+      <span class="hvr-underline-from-center">
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio/code.html" style="color: #2F3A41; font-size:12px;">Code</a>
+        </li>
+      </span>
+      <span class="hvr-underline-from-center">
+        <li class="nav-item">
+          <a class="nav-link" href="/music/music.html" style="color: #2F3A41; font-size:12px;">Music</a>
+        </li>
+      </span>
+      
+    </ul>
 
-          <!--Social Media Nav-->
-          <div class="socialMedia">
-            <div class="navbar justify-content-end navbar-expand-md" id="navbarsExample04">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link hvr-icon-hang" href="https://codepen.io/idesovmarch/"
-                    ><i class="fab fa-codepen hvr-icon" style="color: #8dc7bc;"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link hvr-icon-hang" href="http://idesovmarch.tumblr.com"
-                    ><i class="fab fa-tumblr fa-lg hvr-icon" style="color: #8dc7bc;"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link hvr-icon-hang" href="http://www.linkedin.com/in/idesovmarch"
-                    ><i class="fab fa-linkedin-in fa-lg hvr-icon" style="color: #8dc7bc;"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link hvr-icon-hang" href="portfolio/portfolio.html"
-                    ><i class="fab fa-behance fa-lg hvr-icon" style="color: #8dc7bc;"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link hvr-icon-hang" href="http://www.instagram.com/idesovmarch"
-                    ><i class="fab fa-instagram fa-lg hvr-icon" style="color: #8dc7bc;"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <!--Social Media Nav-->
+    <div class="socialMedia">
+      <div class="navbar justify-content-end navbar-expand-md" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link hvr-icon-hang" href="https://codepen.io/idesovmarch/"
+              ><i class="fab fa-codepen hvr-icon" id="socIcon" style="color: #8dc7bc; font-size: 18px;"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-icon-hang" href="http://idesovmarch.tumblr.com"
+              ><i class="fab fa-tumblr fa-lg hvr-icon" style="color: #8dc7bc; font-size:18x;"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-icon-hang" href="http://www.linkedin.com/in/idesovmarch"
+              ><i class="fab fa-linkedin-in fa-lg hvr-icon" id="socIcon" style="color: #8dc7bc; font-size:18px;"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-icon-hang" href="portfolio/portfolio.html"
+              ><i class="fab fa-behance fa-lg hvr-icon" id="socIcon" style="color: #8dc7bc; font-size:18px;"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-icon-hang" href="https://www.instagram.com/oh_whata_world"
+              ><i class="fab fa-instagram fa-lg hvr-icon" id="socIcon"style="color: #8dc7bc; font-size:18px;"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
     </header>
     <div id="header" class="portfolio-header clearfix">
       <script id="profile-template" type="text/x-handlebars-template">
-
+       
         <h1 class="profile-name">{{user.display_name}}</h1>
         <div class="profile-fields">
         	<ul class="field-list">
@@ -115,7 +135,7 @@
           	{{#each projects}}
           	<li class="portfolio-item">
           		<div class="portfolio-content">
-          			<figure class="portfolio-cover" title="{{this.name}}" data-project-id="{{this.id}}">
+          			<figure class="portfolio-cover" title="{{this.name}}" data-project-id="{{this.id}}" draggable="true">
           				{{#if this.covers.[404]}}
           				<img class="portfolio-image" src="{{this.covers.[404]}}" alt="">
           				{{else}}
@@ -132,12 +152,16 @@
           				{{#each this.fields}}
           					<li class="field-item">{{this}}</li>
           				{{/each}}
-          				</ul>
-          			</div>
-          		</div>
+                  </ul>
+                  <div class="appreciate_button"></div>
+                </div>
+                
+              </div>
+              
           	</li>
           	{{/each}}
           </ul>
+        
         </script>
       </div>
     </div>
@@ -158,6 +182,7 @@
     <script></script>
     <!--Javascript-->
     <script src="../js/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../js/behance/behance-button-jquery-plugin.js"></script>
     <script src="../js/popper/popper.js"></script>
     <script src="../js/bootstrap/bootstrap.js"></script>
     <script src="../js/bootstrap/bootstrap.bundle.js"></script>
