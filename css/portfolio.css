@@ -1,7 +1,5 @@
 /* Credit: https://webdesign.tutsplus.com/tutorials/how-to-use-the-behance-api-to-build-a-custom-portfolio-web-page--cms-20884 */
 
-
-
 *,
 *:before,
 *:after {
@@ -20,7 +18,6 @@ body {
   color: #353537;
   font-family: 'Biryani', sans-serif;
   font-weight: 300;
-  height: auto;
 }
 figure {
   margin: 0;
@@ -41,7 +38,7 @@ figure {
   margin-top: 50px;
   padding: 50px 0;
   padding: 5rem 0;
-  background-color: #2f3a41;
+  background-color: white;
   text-align: center;
 }
 .portfolio-header .profile-avatar img {
@@ -54,7 +51,7 @@ figure {
   font-size: 2.4rem;
   margin-bottom: 10px;
   margin-bottom: 1rem;
-  color: #e0e0e0;
+  color: #2f3a41;
   font-family: 'Biryani', sans-serif;
   font-weight: 400;
 }
@@ -686,5 +683,3 @@ img {
 .card:hover {
   box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
 }
-
-
