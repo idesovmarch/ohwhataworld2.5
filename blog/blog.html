@@ -10,15 +10,11 @@
     <!--Style Sheets -->
 
     <link rel="stylesheet" href="../css/bootstrap.css" />
-    <link rel="stylesheet" href="../css/bootstrap-grid.css" />
-    <link rel="stylesheet" href="../css/bootstrap-reboot.css" />
     <link rel="stylesheet" href="../css/animate.css" />
     <link rel="stylesheet" href="../css/hover.css" />
     <link rel="stylesheet" href="../css/all.css" />
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/blog.css" />
-    <link rel="stylesheet" href="../css/uikit-rtl.css" />
-    <link rel="stylesheet" href="../css/uikit.css" />
 
     <link
       rel="stylesheet"
@@ -37,31 +33,46 @@
       <div></div>
       <!---Navigation Start--->
 
-      <nav class="navbar navbar-expand justify-content" style="border-bottom: solid #2F3A41 2px;">
-        <div class="collapse navbar-collapse justify-content bg-light" style="width: 50px;">
+      <nav class="navbar navbar-expand justify-content" style="border-bottom: solid #2f3a41 2px">
+        <div class="collapse navbar-collapse justify-content" id="" style="width: 50px">
           <ul class="navbar-nav mr-auto">
             <span class="hvr-underline-from-center">
               <li class="nav-item active">
-                <a class="nav-link" href="/" style="color: #2F3A41;"
-                  >Home <span class="sr-only">(current)</span></a
-                >
+                <a class="nav-link" href="/" style="color: #2f3a41; font-size: 12px">Home </a>
               </li>
             </span>
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="../portfolio/portfolio.html" style="color: #2F3A41"
+                <a
+                  class="nav-link"
+                  href="/portfolio/portfolio.html"
+                  style="color: #2f3a41; font-size: 12px"
                   >Design</a
                 >
               </li>
             </span>
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="../portfolio/code.html" style="color: #2F3A41">Code</a>
+                <a
+                  class="nav-link"
+                  href="/portfolio/code.html"
+                  style="color: #2f3a41; font-size: 12px"
+                  >Code</a
+                >
               </li>
             </span>
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="./blog.html" style="color: #2F3A41">Blog</a>
+                <a class="nav-link" href="/music/music.html" style="color: #2f3a41; font-size: 12px"
+                  >Music</a
+                >
+              </li>
+            </span>
+            <span class="hvr-underline-from-center">
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/blog.html" style="color: #2f3a41; font-size: 12px"
+                  >Blog</a
+                >
               </li>
             </span>
           </ul>
@@ -72,27 +83,27 @@
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="https://codepen.io/idesovmarch/"
-                    ><i class="fab fa-codepen hvr-icon" style="color: #8dc7bc;"></i
+                    ><i class="fab fa-codepen hvr-icon" style="color: #8dc7bc"></i
                   ></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="http://idesovmarch.tumblr.com"
-                    ><i class="fab fa-tumblr fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                    ><i class="fab fa-tumblr fa-lg hvr-icon" style="color: #8dc7bc"></i
                   ></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="http://www.linkedin.com/in/idesovmarch"
-                    ><i class="fab fa-linkedin-in fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                    ><i class="fab fa-linkedin-in fa-lg hvr-icon" style="color: #8dc7bc"></i
                   ></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="../portfolio/portfolio.html"
-                    ><i class="fab fa-behance fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                    ><i class="fab fa-behance fa-lg hvr-icon" style="color: #8dc7bc"></i
                   ></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="http://www.instagram.com/idesovmarch"
-                    ><i class="fab fa-instagram fa-lg hvr-icon" style="color: #8dc7bc;"></i
+                    ><i class="fab fa-instagram fa-lg hvr-icon" style="color: #8dc7bc"></i
                   ></a>
                 </li>
               </ul>
@@ -101,16 +112,25 @@
         </div>
       </nav>
     </header>
-    <div class="jumbotron h-100" style="background:#2F3A41">
+    <div
+      class="jumbotron h-100 d-flex"
+      style="background: #2f3a41; max-width: 1500px; box-shadow: none"
+    >
       <div class="mainBox d-flex">
         <div class="p-2">
           <div class="flex-column">
+            <!--
             <div class="h4 p-4 mb-4" id="blogTitle">This is a placeholder</div>
+            -->
+            <h4 class="dateNum"><span style="color: #d5abb8">#1</span> - 09/28/2020</h4>
+            <br />
             <div class="content ml-4 mr-4">
-              <div class="mb-4 mt-2">
+              <div class="mb-4 mt-4">
                 Hey! Thanks for visiting. I am in the process of implementing a fully fleshed out
                 blog, and I am doing it from scratch so it may take me a bit.<br />
-                Cheers!<br />
+                Cheers!
+
+                <br />
                 - Brad
               </div>
               <br />
@@ -124,8 +144,45 @@
         </div>
       </div>
     </div>
+    <!--
+    <div
+      class="jumbotron h-100 d-flex"
+      style="background: #2f3a41; max-width: 1500px; box-shadow: none"
+    >
+      <div class="mainBox d-flex">
+        <div class="p-2">
+          <div class="flex-column">
+           
+          <div class="h4 p-4 mb-4" id="blogTitle">This is a placeholder</div>
+         
+         
+            <h4 class="dateNum"><span style="color: #d5abb8">#2</span> - 09/28/2020</h4>
+            <br />
+            <div class="content ml-4 mr-4">
+              <div class="mb-4 mt-4">
+                Hey! Thanks for visiting. I am in the process of implementing a fully fleshed out
+                blog, and I am doing it from scratch so it may take me a bit.<br />
+                Cheers!
+
+                <br />
+                - Brad
+              </div>
+              <br />
+              <br />
+              <div class="footerBox">
+                <div class="h5">References or Applicable Links</div>
+                <div class="h5"><small>www.wikipedia.com</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  -->
     <footer>
-      <nav aria-label="Page navigation example" style=" background-color: #2f3a41;">
+      <!-- PAGINATION CODE -->
+      <!--
+      <nav aria-label="Page navigation example" style="background-color: #2f3a41">
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item disabled">
             <a class="page-link" href="#" aria-label="Previous">
@@ -150,13 +207,13 @@
           </li>
         </ul>
       </nav>
-    </footer>
+      
+    --></footer>
     <script src="../js/jquery/jquery-3.3.1.min.js"></script>
     <script src="../js/popper/popper.js"></script>
     <script src="../js/bootstrap/bootstrap.js"></script>
     <script src="../js/bootstrap/bootstrap.bundle.js"></script>
     <script src="../js/FontAwesome/all.js"></script>
-    <script src="../js/uikit/uikit.js"></script>
     <script src="../js/index.js"></script>
   </body>
 </html>

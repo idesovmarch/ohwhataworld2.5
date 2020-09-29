@@ -48,3 +48,11 @@ footer {
   border-color: #8dc7bc;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.dateNum {
+  color: white;
+  background-color: #2f3a41;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px 10px;
+}
