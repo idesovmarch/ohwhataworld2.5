@@ -264,6 +264,6 @@ p {
   height: 100%;
 }
 
-#badge {
-  border-top: 30px;
+.badge {
+  margin-top: 30px;
 }
