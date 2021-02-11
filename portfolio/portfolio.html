@@ -16,11 +16,6 @@
 
       gtag('config', 'UA-123989485-1');
     </script>
-    <script>
-      $(function () {
-        $('#appreciate_button').behanceButton(this.id);
-      });
-    </script>
 
     <!-- Credit: https://webdesign.tutsplus.com/tutorials/how-to-use-the-behance-api-to-build-a-custom-portfolio-web-page--cms-20884 -->
 
@@ -61,6 +56,7 @@
                 <a class="nav-link" href="/" style="color: #2f3a41; font-size: 12px">Home </a>
               </li>
             </span>
+            <!--
             <span class="hvr-underline-from-center">
               <li class="nav-item">
                 <a
@@ -71,16 +67,7 @@
                 >
               </li>
             </span>
-            <span class="hvr-underline-from-center">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="/portfolio/code.html"
-                  style="color: #2f3a41; font-size: 12px"
-                  >Code</a
-                >
-              </li>
-            </span>
+          -->
             <span class="hvr-underline-from-center">
               <li class="nav-item">
                 <a class="nav-link" href="/music/music.html" style="color: #2f3a41; font-size: 12px"
@@ -106,7 +93,6 @@
                     ><i
                       class="fab fa-codepen hvr-icon"
                       id="socIcon"
-                      style="color: #8dc7bc; font-size: 18px"
                     ></i
                   ></a>
                 </li>
@@ -114,7 +100,7 @@
                   <a class="nav-link hvr-icon-hang" href="http://idesovmarch.tumblr.com"
                     ><i
                       class="fab fa-tumblr fa-lg hvr-icon"
-                      style="color: #8dc7bc; font-size: 18x"
+                      id="socIcon"
                     ></i
                   ></a>
                 </li>
@@ -123,7 +109,6 @@
                     ><i
                       class="fab fa-linkedin-in fa-lg hvr-icon"
                       id="socIcon"
-                      style="color: #8dc7bc; font-size: 18px"
                     ></i
                   ></a>
                 </li>
@@ -132,7 +117,6 @@
                     ><i
                       class="fab fa-behance fa-lg hvr-icon"
                       id="socIcon"
-                      style="color: #8dc7bc; font-size: 18px"
                     ></i
                   ></a>
                 </li>
@@ -141,7 +125,6 @@
                     ><i
                       class="fab fa-instagram fa-lg hvr-icon"
                       id="socIcon"
-                      style="color: #8dc7bc; font-size: 18px"
                     ></i
                   ></a>
                 </li>
@@ -227,7 +210,6 @@
       </p>
     </footer>
 
-    <script></script>
     <!--Javascript-->
     <script src="../js/jquery/jquery-3.3.1.min.js"></script>
     <script src="../js/behance/behance-button-jquery-plugin.js"></script>
@@ -235,7 +217,6 @@
     <script src="../js/bootstrap/bootstrap.js"></script>
     <script src="../js/bootstrap/bootstrap.bundle.js"></script>
     <script src="../js/FontAwesome/all.js"></script>
-    <script src="../js/uikit/uikit.js"></script>
     <script src="../js/index.js"></script>
     <script src="../js/portfolio.js"></script>
     <script src="../js/handlebars/handlebars-v4.1.1.js"></script>

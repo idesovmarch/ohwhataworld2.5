@@ -2,16 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #2f3a41;
+  height: auto;
+}
+
 /*Navigation Styles*/
 li {
   font-size: 10px;
   font-family: 'Biryani', sans-serif;
   list-style: none;
-}
-
-body {
-  background-color: #2f3a41;
-  height: auto;
 }
 
 .backgroundStuff {
@@ -39,6 +39,11 @@ a.nav-link {
   font-family: 'Biryani', sans-serif;
 }
 
+#soIcon {
+  color: #8dc7bc !important;
+  font-size: 18x;
+  margin-top: 2px;
+}
 /* Main body styles */
 .other {
   float: left;
