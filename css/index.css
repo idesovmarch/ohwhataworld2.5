@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #2f3a41;
+  background-color: #414141;
   height: auto;
 }
 
@@ -15,7 +15,7 @@ li {
 }
 
 .backgroundStuff {
-  background-image: url(../assets/background.svg);
+  background-image: url(../assets/background.png);
   width: 100%;
   height: auto;
 }
@@ -57,23 +57,23 @@ a.nav-link {
 
 h2 {
   font-family: 'Lilita One', cursive;
-  color: #2f3a41;
+  color: #414141;
 }
 
 h3 {
   font-family: 'Lilita One', cursive;
-  color: #2f3a41;
+  color: #414141;
 }
 
 h4 {
   font-family: 'Lilita One', cursive;
-  color: #2f3a41;
+  color: #414141;
   text-decoration: none;
 }
 
 .logo {
-  height: 10%;
-  max-width: 10%;
+  height: 50%;
+  max-width: 50%;
   display: block;
 }
 
@@ -98,7 +98,7 @@ header {
 
 /* Resume Styles */
 p {
-  color: #2f3a41;
+  color: #414141;
 }
 
 #salutation {
@@ -120,7 +120,7 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   border-top-width: 5px;
-  border-top-color: #2f3a41;
+  border-top-color: #414141;
   border-top-style: solid;
   border-radius: 5px;
   border-top-left-radius: 0px;
@@ -173,7 +173,7 @@ p {
 
 #currentProjects {
   border-style: solid;
-  border-color: #2f3a41;
+  border-color: #414141;
   border-width: 2px;
   width: 100%;
   height: 60px;
@@ -222,7 +222,7 @@ p {
 }
 
 .vincitBackground {
-  background-color: #374349;
+  background-color: #414141;
 }
 #vincitBack {
   width: 400px;
@@ -236,7 +236,7 @@ p {
 
 #socIcon {
   font-size: 18px;
-  color: #8dc7bc;
+  color: #6A7D70;
 }
 
 @font-face {
