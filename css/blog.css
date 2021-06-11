@@ -12,20 +12,24 @@
   transition: 0.5s;
 }
 
+.backgroundStuff {
+  background-image: url(../assets/background.png);
+  width: 100%;
+  height: auto;
+}
+
 body {
-  background-color: #2f3a41;
+  
   width: 100%;
   height: auto;
 }
 
 .pagination {
-  background-color: #2f3a41;
+  
   margin-top: 0;
 }
 
-footer {
-  background-color: #2f3a41;
-}
+
 
 .h4 {
   width: 130%;
