@@ -5,6 +5,7 @@ html {
 body {
   background-color: #414141;
   height: auto;
+  background-image: url(../assets/backgrounds.png);
 }
 
 /*Navigation Styles*/
