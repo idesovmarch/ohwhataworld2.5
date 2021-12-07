@@ -100,6 +100,7 @@ header {
 /* Resume Styles */
 p {
   color: #414141;
+  font-family: 'Roboto', sans-serif;
 }
 
 #salutation {
@@ -250,8 +251,16 @@ p {
   text-align: center;
   font-style: bold;
   color: white;
+  background-color: #323433;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 250px;
+  height: auto;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .container {
