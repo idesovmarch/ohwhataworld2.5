@@ -474,8 +474,7 @@ mark,
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
+  border: 5px solid #8fa280;
   max-width: 100%;
   height: auto;
 }

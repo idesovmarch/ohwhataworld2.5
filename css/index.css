@@ -24,24 +24,26 @@ li {
 nav {
   width: auto !important;
   height: 40px !important;
-  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  background-color: #ddd5b6;
+  box-shadow: 0 0 5px 30px #ddd5b6;
 }
 
-footer {
-  margin-top: 200px;
-  display: block;
-  height: 40px;
-  width: 100%;
+.navbar-inner {
+  min-height: 0 !important;
 }
 
 a.nav-link {
+  margin-top: 15px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 14px;
   font-family: 'Biryani', sans-serif;
+  color: #8fa280;
 }
 
 #soIcon {
-  color: #8dc7bc !important;
+  color: #8fa280 !important;
   font-size: 18x;
   margin-top: 2px;
 }
@@ -58,17 +60,17 @@ a.nav-link {
 
 h2 {
   font-family: 'Lilita One', cursive;
-  color: #414141;
+  color: #8fa280;
 }
 
 h3 {
   font-family: 'Lilita One', cursive;
-  color: #414141;
+  color: #8fa280;
 }
 
 h4 {
   font-family: 'Lilita One', cursive;
-  color: #414141;
+  color: #8fa280;
   text-decoration: none;
 }
 
@@ -99,7 +101,7 @@ header {
 
 /* Resume Styles */
 p {
-  color: #414141;
+  color: #8fa280;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -110,39 +112,24 @@ p {
   padding-bottom: 10px;
 }
 
-#backgroundTry {
-  background-color: #f5f5f5;
-  width: 450px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-top-width: 5px;
-  border-top-color: #414141;
-  border-top-style: solid;
-  border-radius: 5px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+.contactMe {
+  background-color: #ddd5b6;
+  padding-bottom: 30px;
+  box-shadow: 0 0 5px 30px #ddd5b6;
+  margin-left: 800px;
+  margin-right: 800px;
+  margin-top: 100px;
 }
 
-#backgroundTryResume {
-  background-color: #f8f7f7;
-  width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  padding-bottom: 10px;
-  padding-top: 20px;
-
-  border-radius: 5px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+.mainContent {
+  background-color: #ddd5b6;
+  box-shadow: 0 0 5px 30px #ddd5b6;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
+
 
 #topLogo {
   width: 400px;
@@ -169,10 +156,6 @@ p {
   font-size: 8px;
 }
 
-.navbar-inner {
-  min-height: 0 !important;
-}
-
 #currentProjects {
   border-style: solid;
   border-color: #414141;
@@ -197,32 +180,6 @@ p {
   }
 }
 
-.card {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-  min-height: 400px;
-  background: #fff;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  transition: 0.5s;
-}
-.card:hover {
-  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
-}
-
-.csharp {
-  display: inline;
-  margin-left: 20px;
-}
-
-.codeIcons {
-  display: block;
-  margin-left: 500px;
-}
-
 .vincitBackground {
   background-color: #414141;
 }
@@ -238,7 +195,7 @@ p {
 
 #socIcon {
   font-size: 18px;
-  color: #6A7D70;
+  color: #6a7d70;
 }
 
 @font-face {
@@ -281,4 +238,24 @@ p {
 
 .badge {
   margin-top: 30px;
+}
+
+/* Portfolio */
+
+.portImage {
+  width: 600px;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+/* Resume-Specific Styles */
+
+.workDate {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px !important;
+  height: auto;
 }
