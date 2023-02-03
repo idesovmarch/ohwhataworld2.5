@@ -112,16 +112,19 @@ p {
   padding-bottom: 10px;
 }
 
-.contactMe {
+#contactMe {
   background-color: #ddd5b6;
   padding-bottom: 30px;
   box-shadow: 0 0 5px 30px #ddd5b6;
-  margin-left: 800px;
-  margin-right: 800px;
   margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width:350px;
+  height: auto;
 }
 
-.mainContent {
+#mainContent {
   background-color: #ddd5b6;
   box-shadow: 0 0 5px 30px #ddd5b6;
   padding-bottom: 50px;
@@ -129,6 +132,17 @@ p {
   padding-left: 20%;
   padding-right: 20%;
 }
+
+#mainResumeContent {
+    background-color: #ddd5b6;
+    box-shadow: 0 0 5px 30px #ddd5b6;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    max-width: 80%;
+  }
+
 
 
 #topLogo {
