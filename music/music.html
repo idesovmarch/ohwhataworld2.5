@@ -32,50 +32,45 @@
     <link href="https://fonts.googleapis.com/css?family=Biryani:800" rel="stylesheet" />
   </head>
 
-  <body style="background-image: url(../assets/backgrounds.png);
-  width: 100%;
-  height: auto;">
+  <body>
     <header>
       
       <!---Navigation Start--->
-
+     
       <nav class="navbar navbar-expand justify-content">
         <div class="collapse navbar-collapse justify-content" id="" style="width: 50px;">
           <ul class="navbar-nav mr-auto">
+            <li><a href="/index.html"><img src="/assets/logoWeb.png" id="navLogo"/></a></li>
             <span class="hvr-underline-from-center">
               <li class="nav-item active">
-                <a class="nav-link" href="/" style="color: #2F3A41; font-size:12px;">Home </a>
+                <a class="nav-link" href="/">Home </a>
               </li>
             </span>
             
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="/portfolio/portfolio.html" style="color: #2F3A41; font-size:12px;"
-                  >Art & Design</a
+                <a class="nav-link" href="/resume/resume.html"
+                  >Resume</a
                 >
               </li>
             </span>
           
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="/portfolio/music.html" style="color: #2F3A41; font-size:12px;">Music</a>
+                <a class="nav-link" href="music.html">Music</a>
               </li>
             </span>
-            <!---
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="/blog/blog.html" style="color: #414141; font-size: 12px"
-                  >Blog</a
-                >
+                <a class="nav-link" href=""
+                  >Art/Design</a>
               </li>
             </span>
-            -->
             <span class="hvr-underline-from-center">
               <li class="nav-item">
                 <a
                   class="nav-link"
                   href="https://ohwhataworld.bigcartel.com"
-                  style="color: #2f3a41; font-size: 12px"
                   >Shop</a
                 >
               </li>
@@ -126,6 +121,49 @@
               </ul>
             </div>
           </div>
+          <div class="socialMediaResp">
+            <div class="navbar justify-content-end navbar-expand-md" id="navbarsExample04">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="https://codepen.io/idesovmarch/"
+                    ><i class="fab fa-codepen fa-lg hvr-icon" id="socIcon" ></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="http://idesovmarch.tumblr.com"
+                    ><i class="fab fa-tumblr fa-lg hvr-icon" id="socIcon"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="http://www.linkedin.com/in/idesovmarch"
+                    ><i class="fab fa-linkedin-in fa-lg hvr-icon" id="socIcon" ></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="portfolio/portfolio.html"
+                    ><i class="fab fa-behance fa-lg hvr-icon" id="socIcon"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="http://www.instagram.com/idesovmarch"
+                    ><i class="fab fa-instagram fa-lg hvr-icon" id="socIcon"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link hvr-icon-hang"
+                    href="https://steamcommunity.com/id/idesovmarch/"
+                    ><i class="fab fa-steam fa-lg hvr-icon" id="socIcon"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="https://github.com/idesovmarch"
+                    ><i class="fab fa-github fa-lg hvr-icon" id="socIcon"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </nav>
       
@@ -133,40 +171,63 @@
     
     
 
-    <h1 class="musicTitle">
-      My Music
-    </h1>
+    
     
     
       <!---Start Main Body------->
-
-   <div class="container" style=" width: 100%; margin-left:auto; margin-right: auto; padding-left:250px; border-top: 5pt solid #2f3a41; border-bottom: 5pt solid #2f3a41; background-color:white;">
-     
-      <iframe class="responsive-iframe" style="border: 0; width: 350px; height: 470px; margin-top: 40px; margin-right: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=3965498207/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://chaliceota.bandcamp.com/album/gall">Gall by Chalice of the Ancient</a></iframe>
-      <iframe class="responsive-iframe" style="border: 0; width: 350px; height: 470px; margin-top: 40px; margin-right: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=4128235694/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://chaliceota.bandcamp.com/album/malleus-maleficarum">Malleus Maleficarum by Chalice of the Ancient</a></iframe>
-     
+    <main>
+      <div class="container text-center" id="musicBoxContainer">
+        <div class="col">
+        <h1 class="musicTitle">
+          My Music
+        </h1>
+        
+          <div class="row mx-auto">
+        <iframe class="responsive-iframe" id="musicBox" src="https://bandcamp.com/EmbeddedPlayer/album=3980000437/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://chaliceota.bandcamp.com/album/sepulchre">Sepulchre by Chalice of the Ancients</a></iframe>
+        </div>
+        <div class="row mx-auto">
+          <iframe class="responsive-iframe" id="musicBox" src="https://bandcamp.com/EmbeddedPlayer/album=3965498207/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://chaliceota.bandcamp.com/album/gall">Gall by Chalice of the Ancients</a></iframe>
+        </div>
+        <div class="row mx-auto">
+      <iframe class="responsive-iframe" id="musicBox" src="https://bandcamp.com/EmbeddedPlayer/album=4128235694/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://chaliceota.bandcamp.com/album/malleus-maleficarum">Malleus Maleficarum by Chalice of the Ancients</a></iframe>
+      </div>
+      </div>
       </div>
       
-      <h1 class="musicTitle">
-        Now Playing
-      </h1>
-     
-      <div class="container" style="margin-left:auto; margin-right: auto; padding-left:200px; padding-right: px;">
       
-        <iframe class="responsive-iframe" style="border: 0; width: 100%; height: 120px; margin-top: 40px;" src="https://bandcamp.com/EmbeddedPlayer/album=3487565856/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://transylvaniantapes.bandcamp.com/album/cosmic-reef-temple-age-of-the-spaceborn">COSMIC REEF TEMPLE - AGE OF THE SPACEBORN by Cosmic Reef Temple</a></iframe>
-        <iframe class="responsive-iframe" style="border: 0; width: 100%; height: 120px; margin-top:20px;" src="https://bandcamp.com/EmbeddedPlayer/album=3294998615/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://nitemetal.bandcamp.com/album/darkness-silence-mirror-flame">Darkness Silence Mirror Flame by Nite</a></iframe>
-        <iframe class="responsive-iframe" style="border: 0; width: 100%; height: 120px; margin-top:20px;" src="https://bandcamp.com/EmbeddedPlayer/album=3730637379/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://nerijamusic.bandcamp.com/album/blume">Blume by NÉRIJA</a></iframe>
-        <iframe class="responsive-iframe" style="border: 0; width: 100%; height: 120px; margin-top:20px;" src="https://bandcamp.com/EmbeddedPlayer/album=3573107664/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://skertilflukt.bandcamp.com/album/seasons">Seasons by Søker Tilflukt</a></iframe>
-        </div>
-
-
+     
+      <div class="container" id="musicBoxContainer">
+        <div class="col">
         <h1 class="musicTitle">
-          Recent Playlists
+          Now Playing
         </h1>
 
-        <div class="container" style="margin-left:auto; margin-right: auto; margin-top: 50px; padding-left:px; padding-right: px;">
+        <div class="row mx-auto">
+        <iframe class="responsive-iframe" id="musicBox" src="https://bandcamp.com/EmbeddedPlayer/album=3487565856/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://transylvaniantapes.bandcamp.com/album/cosmic-reef-temple-age-of-the-spaceborn">COSMIC REEF TEMPLE - AGE OF THE SPACEBORN by Cosmic Reef Temple</a></iframe>
+          </div>
+
+          <div class="row mx-auto">
+        <iframe class="responsive-iframe" id="musicBox" src="https://bandcamp.com/EmbeddedPlayer/album=3294998615/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://nitemetal.bandcamp.com/album/darkness-silence-mirror-flame">Darkness Silence Mirror Flame by Nite</a></iframe>
+            </div>
+
+            <div class="row mx-auto">
+        <iframe class="responsive-iframe" id="musicBox" src="https://bandcamp.com/EmbeddedPlayer/album=3730637379/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://nerijamusic.bandcamp.com/album/blume">Blume by NÉRIJA</a></iframe>
+        </div>
+
+        <div class="row mx-auto">
+        <iframe class="responsive-iframe" id="musicBox" src="https://bandcamp.com/EmbeddedPlayer/album=3573107664/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://skertilflukt.bandcamp.com/album/seasons">Seasons by Søker Tilflukt</a></iframe>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="container" id="musicBoxContainer">
+          <h1 class="musicTitle">
+            Newest Spotify playlist
+          </h1>
         <iframe src="https://open.spotify.com/embed/playlist/3c8vGSCggCpJKsWVA35RxJ?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         </div>
+        </main>
       <footer class="text-center">
         <p id="footerText"></p>
       </footer>

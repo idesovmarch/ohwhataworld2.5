@@ -11,14 +11,14 @@
 
     <!--Style Sheets minor change -->
 
-    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
 
     <!--This is a semi customized bootstrap. I just added a few precise changes for it to suite my needs-->
 
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/hover.css" />
-    <link rel="stylesheet" href="css/all.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="/css/animate.css" />
+    <link rel="stylesheet" href="/css/hover.css" />
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/index.css" />
 
     <link
       rel="stylesheet"
@@ -38,10 +38,10 @@
       <div></div>
       <!---Navigation Start--->
       
-      <nav class="navbar navbar-expand justify-content" >
-        <div class="collapse navbar-collapse justify-content" id="" style="width: 50px">
+      <nav class="navbar navbar-expand sticky-top justify-content" >
+        <div class="collapse navbar-collapse justify-content" style="width: 50px">
           <ul class="navbar-nav mr-auto">
-            <span class="hvr-underline-from-center">
+            <span class="hvr-underline-from-center" >
               <li class="nav-item active">
                 <a class="nav-link" href="/">Home </a>
               </li>
@@ -64,15 +64,14 @@
                 >
               </li>
             </span>
-            <!---
+            
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="/blog/blog.html" style="color: #414141; font-size: 12px"
-                  >Blog</a
-                >
+                <a class="nav-link" href=""
+                  >Art/Design</a>
               </li>
             </span>
-            -->
+           
             <span class="hvr-underline-from-center">
               <li class="nav-item">
                 <a
@@ -86,7 +85,7 @@
 
           <!--Social Media Nav-->
           <div class="socialMedia">
-            <div class="navbar justify-content-end navbar-expand-md" id="navbarsExample04">
+            <div class="navbar justify-content-end">
               <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item">
@@ -126,12 +125,52 @@
                     ><i class="fab fa-steam fa-lg hvr-icon" id="socIcon"></i
                   ></a>
                 </li>
-
-               
-
               </ul>
             </div>
           </div>
+          
+
+          <!-- responsive-only Social Media links - bottom - breakpoint at 718px-->
+          <div class="container" id="socialMediaResp">
+                
+                  <a class="hvr-icon-hang" 
+                  id="soIconResp"
+                  href="https://codepen.io/idesovmarch/"
+                    ><i class="fab fa-codepen fa-lg hvr-icon"  ></i
+                  ></a>
+                  <a class="hvr-icon-hang"
+                  id="soIconResp"
+                  href="http://idesovmarch.tumblr.com"
+                    ><i class="fab fa-tumblr fa-lg hvr-icon"></i
+                  ></a>
+                  <a class="hvr-icon-hang"
+                  id="soIconResp"
+                  href="http://www.linkedin.com/in/idesovmarch"
+                    ><i class="fab fa-linkedin-in fa-lg hvr-icon"></i
+                  ></a>
+                  <a class="hvr-icon-hang"
+                  id="soIconResp"
+                  href="portfolio/portfolio.html"
+                    ><i class="fab fa-behance fa-lg hvr-icon"></i
+                  ></a>
+                  <a 
+                  class="hvr-icon-hang"
+                  id="soIconResp"
+                  href="http://www.instagram.com/idesovmarch"
+                    ><i class="fab fa-instagram fa-lg hvr-icon"></i
+                  ></a>
+                  <a
+                    class="hvr-icon-hang"
+                    id="soIconResp"
+                    href="https://steamcommunity.com/id/idesovmarch/"
+                    ><i class="fab fa-steam fa-lg hvr-icon"></i
+                  ></a>
+                  <a class="hvr-icon-hang" 
+                  id="soIconResp" 
+                  href="https://github.com/idesovmarch"
+                    ><i class="fab fa-github fa-lg hvr-icon"></i
+                  ></a>
+            </div>
         </div>
       </nav>
     </header>
@@ -142,7 +181,7 @@
       <img
         class="img-responsive"
         id="topLogo"
-        src="assets/logoWeb.png"
+        src="/assets/logoWeb.png"
         style="padding-top: 40px; height: auto; width: 100%; margin-bottom: 250px; max-width: 500px"
       />
 
@@ -159,10 +198,7 @@
           tinkerer. I get endless amusment from taking things apart and putting them back together
           again. Websites, tech, mechanical pencils, you name it. It is a thrill to learn something
           new. I am currently working for a Lab Information Systems start-up in Indianapolis IN.
-          </p>
-         
-
-          
+          </p> 
         <p>
           I have a working knowledge of a variety of web development languages including:<br />
           <code>HTML5, CSS3, PHP, .Net Core/C#, Javascript(React, Jquery, Node) and SQL/database
@@ -173,9 +209,9 @@
       
         
         
-        <h2 id="salutation">Why Ohwhataworld?</h2>
+        <h2 id="salutation">Why OhWhataWorld?</h2>
         <p>
-          I wanted to create a brand for myself, without expectations. It's only purpose is as an outlet for my creativity and random ideas.
+          I wanted to create a brand for myself, without expectations. It's only purpose is as an outlet for my creativity and random ideas. It is also fun.
         </p>
         </div>
         </div>
@@ -185,7 +221,7 @@
         <div class="container">
         <div id="contactMe">
         <div class="d-flex justify-content-center">
-          <h3 class="mt-4" style="color: #8fa280">Contact Me</h3>
+          <h3 class="mt-4">Contact Me</h3>
         </div>
         <div class="d-flex justify-content-center">
           <p class="badge badge-secondary">idesovmarch@protonmail.com</p>
@@ -201,12 +237,11 @@
           <br />
         </div>
         <div class="d-flex justify-content-center">
-          
         </div>
       </div>
       </div>
        </div>
-      <footer class="text-center">
+      <footer>
         <h2 id="href"></h2>
         <p id="footerText"></p>
       </footer>

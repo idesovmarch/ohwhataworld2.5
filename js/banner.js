@@ -21,10 +21,10 @@ function createBanner(obj, pageSimulator) {
   swBanner.style.alignItems = 'center';
   swBanner.style.width = '100%';
   swBanner.style.minHeight = '48px';
-  swBanner.style.maxHeight = '72px';
+  swBanner.style.maxHeight = '100px';
   swBanner.style.paddingTop = '8px';
   swBanner.style.paddingBottom = '8px';
-  swBanner.style.marginTop = '80px';
+  swBanner.style.marginTop = '75px';
   swBanner.style.lineHeight = '18px';
   swBanner.style.textAlign = 'center';
   swBanner.style.textDecoration = 'none';
