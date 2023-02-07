@@ -293,5 +293,10 @@ p {
 #downArrow {
   margin-right: auto;
   margin-left: auto;
-  position: relative;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+#profExpTitle {
+  margin-bottom:50px;
 }
