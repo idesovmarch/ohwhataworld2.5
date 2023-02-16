@@ -38,6 +38,7 @@ nav {
   padding-top: 30px;
   background-color: #ddd5b6;
   box-shadow: 0 0 5px 30px #ddd5b6;
+
   position: fixed;
 
 }
@@ -45,6 +46,8 @@ nav {
 .socialMediaResp {
   display: none;
 }
+
+=======
 
 #navLogo {
   width:60px;
@@ -65,7 +68,9 @@ a.nav-link {
 }
 
 #soIcon {
+
   color: #6a7d70 !important;
+
   font-size: 18x;
   margin-top: 2px;
 }
@@ -90,17 +95,23 @@ h1 {
 }
 
 h2 {
+
   font-family: 'Nazare', Arial, Helvetica, sans-serif;
+
   color: #8fa280;
 }
 
 h3 {
+
   font-family: 'Nazare', Arial, Helvetica, sans-serif;
+r
   color: #8fa280;
 }
 
 h4 {
+
   font-family: 'Nazare', Arial, Helvetica, sans-serif;
+
   color: #8fa280;
   text-decoration: none;
 }
@@ -249,6 +260,7 @@ p {
   display: block;
 }
 
+
 #musicBoxResp {
   display: block;
   border: 0; 
@@ -267,6 +279,7 @@ p {
 
 }
 
+
 .vincitBackground {
   background-color: #414141;
 }
@@ -280,6 +293,12 @@ p {
   position: relative;
 }
 
+
+
+#socIcon {
+  font-size: 18px;
+  color: #6a7d70;
+}
 
 
 @font-face {
@@ -360,6 +379,7 @@ p {
 
 #profExpTitle {
   margin-bottom:50px;
+
 }
 
 /* Music Page styles */
