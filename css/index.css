@@ -6,6 +6,12 @@ body {
   background-color: #414141;
   height: auto;
   background-image: url(../assets/backgrounds.png);
+  
+}
+
+footer {
+  width: 100%;
+  height: 200px;
 }
 
 /*Navigation Styles*/
@@ -19,8 +25,12 @@ li {
   background-image: url(../assets/backgrounds.png);
   width: 100%;
   height: auto;
+  box-shadow: 0 0 5px 30px #ddd5b6;
 }
-
+@font-face {
+  font-family: Nazare;
+  src: url(../assets/fonts/NAZARE.OTF);
+}
 nav {
   width: auto !important;
   height: 40px !important;
@@ -28,7 +38,16 @@ nav {
   padding-top: 30px;
   background-color: #ddd5b6;
   box-shadow: 0 0 5px 30px #ddd5b6;
+
+  position: fixed;
+
 }
+
+.socialMediaResp {
+  display: none;
+}
+
+=======
 
 #navLogo {
   width:60px;
@@ -49,9 +68,15 @@ a.nav-link {
 }
 
 #soIcon {
-  color: #8fa280 !important;
+
+  color: #6a7d70 !important;
+
   font-size: 18x;
   margin-top: 2px;
+}
+
+#socialMediaResp {
+  display: none;
 }
 /* Main body styles */
 .other {
@@ -64,18 +89,29 @@ a.nav-link {
   text-align: center;
 }
 
+h1 {
+  font-family: 'Nazare', Arial, Helvetica, sans-serif;
+  color: #8fa280;
+}
+
 h2 {
-  font-family: 'Lilita One', cursive;
+
+  font-family: 'Nazare', Arial, Helvetica, sans-serif;
+
   color: #8fa280;
 }
 
 h3 {
-  font-family: 'Lilita One', cursive;
+
+  font-family: 'Nazare', Arial, Helvetica, sans-serif;
+r
   color: #8fa280;
 }
 
 h4 {
-  font-family: 'Lilita One', cursive;
+
+  font-family: 'Nazare', Arial, Helvetica, sans-serif;
+
   color: #8fa280;
   text-decoration: none;
 }
@@ -112,7 +148,8 @@ p {
 }
 
 #salutation {
-  font-family: 'Lilita One', cursive;
+  font-family: 'Nazare', Arial, Helvetica, sans-serif;
+  font-size: 50px;
   text-align: left;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -174,19 +211,74 @@ p {
   display: block;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 718px) {
+
+  nav {
+    width: auto !important;
+    height: 40px !important;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    background-color: #ddd5b6;
+    box-shadow: 0 0 5px 30px #ddd5b6;
+    position: fixed;
+    text-align: center;
+  
+  }
+
+  #socialMediaResp {
+  position: fixed;
+  display: block;
+  bottom: 0;
+  min-width: 100%;
+  height: 70px;
+  background-color: #ddd5b6;
+  box-shadow: 0 0 5px 30px #ddd5b6;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+ 
+  }
+
   .socialMedia {
     display: none;
   }
 
-  #footerText {
-    display: none;
+  #soIconResp {
+    color: #6a7d70 !important;
+    font-size: 18px;
+    margin-right: 25px !important;
+    
   }
 
-  #currentProjects {
-    margin-bottom: 30px;
-  }
+#musicBox {
+  border: 0; 
+  width: 350px; 
+  height: 470px; 
+  margin-top: 40px; 
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
+
+
+#musicBoxResp {
+  display: block;
+  border: 0; 
+  width: 170px; 
+  height: 170px;
+  margin-left: 60px;
+}
+
+#musicBox {
+  display: none;
+}
+
+#musicLink {
+  display: none;
+}
+
+}
+
 
 .vincitBackground {
   background-color: #414141;
@@ -201,32 +293,20 @@ p {
   position: relative;
 }
 
+
+
 #socIcon {
   font-size: 18px;
   color: #6a7d70;
 }
+
 
 @font-face {
   font-family: Prospectus;
   src: url(/assets/fonts/ProspectusStdBlk.otf);
 }
 
-.musicTitle {
-  position: relative;
-  text-align: center;
-  font-style: bold;
-  color: white;
-  background-color: #323433;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 250px;
-  height: auto;
-  border-radius: 15px 15px 15px 15px;
-}
+
 
 .container {
   position: relative;
@@ -299,4 +379,58 @@ p {
 
 #profExpTitle {
   margin-bottom:50px;
+
+}
+
+/* Music Page styles */
+#musicBoxContainer{
+  display: block;
+  width: 75%; 
+  height: auto;
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 100px;
+  background-color: #ddd5b6;
+  box-shadow: 0 0 5px 30px #ddd5b6;
+  overflow: visible;
+ 
+}
+
+#musicBox {
+  display: block;
+  border: 0; 
+  width: 100%; 
+  height: 120px;
+  margin-left: 60px;
+}
+
+#musicBoxResp {
+  display: none;
+}
+
+.musicTitle {
+  display:block;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  width: 500px;
+  height: auto;
+}
+
+/* Portfolio styles */
+#portItem {
+margin-bottom: 50px;
+}
+
+#portfolioBody {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+  
+}
+
+#portItemModal {
+  width: 100%;
 }
