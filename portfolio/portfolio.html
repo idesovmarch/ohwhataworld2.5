@@ -19,26 +19,15 @@
 
     <!-- Credit: https://webdesign.tutsplus.com/tutorials/how-to-use-the-behance-api-to-build-a-custom-portfolio-web-page--cms-20884 -->
 
-    <link
-      rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css"
-    />
-    <link
-      rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css"
-    />
+    
 
-    <link rel="stylesheet" href="../css/portfolio.css" />
     <link rel="stylesheet" href="../css/bootstrap.css" />
     <link rel="stylesheet" href="../css/bootstrap-grid.css" />
     <link rel="stylesheet" href="../css/bootstrap-reboot.css" />
     <link rel="stylesheet" href="../css/animate.css" />
     <link rel="stylesheet" href="../css/hover.css" />
     <link rel="stylesheet" href="../css/all.css" />
+    <link rel="stylesheet" href="../css/index.css"/>
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lilita+One" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Biryani:800" rel="stylesheet" />
@@ -48,46 +37,45 @@
     <header>
       <!---Navigation Start--->
 
-      <nav class="navbar navbar-expand justify-content" style="border-bottom: solid #2f3a41 2px">
-        <div class="collapse navbar-collapse justify-content" id="" style="width: 50px">
+      <nav class="navbar navbar-expand sticky-top justify-content" >
+        <div class="collapse navbar-collapse justify-content" style="width: 50px">
           <ul class="navbar-nav mr-auto">
-            <span class="hvr-underline-from-center">
+            <span class="hvr-underline-from-center" >
               <li class="nav-item active">
-                <a class="nav-link" href="/" style="color: #2f3a41; font-size: 12px">Home </a>
+                <a class="nav-link" href="/">Home </a>
               </li>
             </span>
-            <!--
+            
             <span class="hvr-underline-from-center">
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="/portfolio/portfolio.html"
-                  style="color: #2f3a41; font-size: 12px"
-                  >Design</a
-                >
+                  href="/resume/resume.html"
+                  
+                  >Resume</a>
               </li>
             </span>
-          -->
+         
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="/music/music.html" style="color: #2f3a41; font-size: 12px"
+                <a class="nav-link" id="musicLink" href="/music/music.html" 
                   >Music</a
                 >
               </li>
             </span>
+            
             <span class="hvr-underline-from-center">
               <li class="nav-item">
-                <a class="nav-link" href="/blog/blog.html" style="color: #2f3a41; font-size: 12px"
-                  >Blog</a
-                >
+                <a class="nav-link" href=""
+                  >Art/Design</a>
               </li>
             </span>
+           
             <span class="hvr-underline-from-center">
               <li class="nav-item">
                 <a
                   class="nav-link"
                   href="https://ohwhataworld.bigcartel.com"
-                  style="color: #2f3a41; font-size: 12px"
                   >Shop</a
                 >
               </li>
@@ -96,118 +84,129 @@
 
           <!--Social Media Nav-->
           <div class="socialMedia">
-            <div class="navbar justify-content-end navbar-expand-md" id="navbarsExample04">
+            <div class="navbar justify-content-end">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link hvr-icon-hang" href="https://codepen.io/idesovmarch/"
-                    ><i class="fab fa-codepen hvr-icon" id="socIcon"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link hvr-icon-hang" href="http://idesovmarch.tumblr.com"
-                    ><i class="fab fa-tumblr fa-lg hvr-icon" id="socIcon"></i
-                  ></a>
-                </li>
+
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="http://www.linkedin.com/in/idesovmarch"
                     ><i class="fab fa-linkedin-in fa-lg hvr-icon" id="socIcon"></i
                   ></a>
                 </li>
+
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="github.com/idesovmarch"
+                    ><i class="fab fa-github fa-lg hvr-icon" id="socIcon"></i
+                  ></a>
+                </li>
+
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="portfolio/portfolio.html"
                     ><i class="fab fa-behance fa-lg hvr-icon" id="socIcon"></i
                   ></a>
                 </li>
+
+                <li class="nav-item">
+                  <a class="nav-link hvr-icon-hang" href="http://idesovmarch.tumblr.com"
+                    ><i class="fab fa-tumblr fa-lg hvr-icon" id="socIcon"></i
+                  ></a>
+                </li>
+                
                 <li class="nav-item">
                   <a class="nav-link hvr-icon-hang" href="https://www.instagram.com/oh_whata_world"
                     ><i class="fab fa-instagram fa-lg hvr-icon" id="socIcon"></i
                   ></a>
                 </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link hvr-icon-hang"
+                    href="https://steamcommunity.com/id/idesovmarch/"
+                    ><i class="fab fa-steam fa-lg hvr-icon" id="socIcon"></i
+                  ></a>
+                </li>
               </ul>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
     </header>
-    <div id="header" class="portfolio-header clearfix">
-      <script id="profile-template" type="text/x-handlebars-template">
-        <h1 class='profile-name'>
-          {{user.display_name}}
-        </h1>
-        <div class='profile-fields'>
-          <ul class='field-list'>
-            {{#each user.fields}}
-              <li class='field-item'>
-                {{this}}
-              </li>
-            {{/each}}
-          </ul>
+    <main>
+      <div class="container">
+        <div id="portfolioBody">
+        <div class="row">
+        
+        <div class="col">
+          <img src="../assets/portfolio/hand.svg" id="portItem" class="img-thumbnail" alt="..." data-toggle="modal" data-target="#portModal1">          
         </div>
-        <div class='profile-location'>
-          <i class='fas fa-map-marker-alt mr-3'></i>{{user.city}}, {{user.country}}
+        <div class="col">
+          <img src="../assets/portfolio/large.svg" id="portItem" class="img-thumbnail" alt="...">
         </div>
-      </script>
-    </div>
-    <div id="content" class="content-area clearfix">
-      <div id="portfolio" class="portfolio-area clearfix">
-        <script id="portfolio-template" type="text/x-handlebars-template">
-          <ul class='portfolio-list clearfix'>
-            {{#each projects}}
-              <li class='portfolio-item'>
-                <div class='portfolio-content'>
-                  <figure
-                    class='portfolio-cover'
-                    title='{{this.name}}'
-                    data-project-id='{{this.id}}'
-                    draggable='true'
-                  >
-                    {{#if this.covers.404}}
-                      <img class='portfolio-image' src='{{this.covers.404}}' alt='' />
-                    {{else}}
-                      {{#if this.covers.230}}
-                        <img class='portfolio-image' src='{{this.covers.230}}' alt='' />
-                      {{else}}
-                        <img class='portfolio-image' src='{{this.covers.202}}' alt='' />
-                      {{/if}}
-                    {{/if}}
-                  </figure>
-                  <h2 class='portfolio-title'>
-                    {{this.name}}
-                  </h2>
-                  <div class='portfolio-fields'>
-                    <ul class='field-list'>
-                      {{#each this.fields}}
-                        <li class='field-item'>
-                          {{this}}
-                        </li>
-                      {{/each}}
-                    </ul>
-                    <div class='appreciate_button'></div>
+        <div class="col">
+          <img src="../assets/portfolio/skull_plinth.svg" id="portItem" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+          <img src="../assets/portfolio/snail.svg" id="portItem" class="img-thumbnail" alt="...">
+        </div>
+        </div>
+        <div class="row">
+        
+          <div class="col">
+            <img src="../assets/portfolio/hand.svg" id="portItem" class="img-thumbnail" alt="...">
+          </div>
+          <div class="col">
+            <img src="../assets/portfolio/large.svg" id="portItem" class="img-thumbnail" alt="...">
+          </div>
+          <div class="col">
+            <img src="../assets/portfolio/skull_plinth.svg" id="portItem" class="img-thumbnail" alt="...">
+          </div>
+          <div class="col">
+            <img src="../assets/portfolio/snail.svg" id="portItem" class="img-thumbnail" alt="...">
+          </div>
+          </div>
+          <div class="row">
+        
+            <div class="col">
+              <img src="../assets/portfolio/hand.svg" id="portItem" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col">
+              <img src="../assets/portfolio/large.svg" id="portItem" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col">
+              <img src="../assets/portfolio/skull_plinth.svg" id="portItem" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col">
+              <img src="../assets/portfolio/snail.svg" id="portItem" class="img-thumbnail" alt="...">
+            </div>
+            </div>
+
+            <!--Modals-->
+            <div class="modal fade" id="portModal1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="portModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="../assets/portfolio/hand.png" id="portItemModal" alt="Spooky hand">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
-              </li>
-            {{/each}}
-          </ul>
-        </script>
+              </div>
+            </div>
+
       </div>
-    </div>
+    </main>
+    
     <footer id="footer" class="portfolio-footer clearfix">
-      <p style="color: #8dc7bc">Powered by</p>
-      <p>
-        <a
-          class=""
-          style="color: #8dc7bc"
-          href="http://www.behance.net/"
-          title="Behance"
-          target="_blank"
-          ><i class="fab fa-behance fa-lg hvr-icon" style="color: #8dc7bc"></i
-        ></a>
-      </p>
+      
     </footer>
 
     <!--Javascript-->
     <script src="../js/jquery/jquery-3.3.1.min.js"></script>
-    <script src="../js/behance/behance-button-jquery-plugin.js"></script>
     <script src="../js/popper/popper.js"></script>
     <script src="../js/bootstrap/bootstrap.js"></script>
     <script src="../js/bootstrap/bootstrap.bundle.js"></script>
