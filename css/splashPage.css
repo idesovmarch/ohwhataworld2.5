@@ -1,0 +1,806 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7f0d8;
+  height: auto;
+  /*background-image: url(../assets/backgrounds.png);*/
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+/*Navigation Styles*/
+li {
+  font-size: 10px;
+  font-family: 'Biryani', sans-serif;
+  list-style: none;
+}
+
+/*
+.backgroundStuff {
+  background-image: url(../assets/backgrounds.png);
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 5px 30px #ddd5b6;
+}
+*/
+@font-face {
+  font-family: Nazare;
+  src: url(../assets/fonts/NAZARE.OTF);
+}
+
+@font-face {
+  font-family: BlackHanSans;
+  src: url(../assets/fonts/BlackHanSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Yellowtail;
+  src: url(../assets/fonts/Yellowtail-Regular.ttf);
+}
+nav {
+  width: auto !important;
+  height: 40px !important;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  background-color: #f7f0d8;
+  box-shadow: 0 0 5px 30px #f7f0d8;
+  position: fixed;
+}
+
+.socialMediaResp {
+  display: none;
+}
+
+#navLogo {
+  width: 60px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.navbar-inner {
+  min-height: 0 !important;
+}
+
+a.nav-link {
+  margin-top: 35px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Biryani', sans-serif;
+  color: black;
+}
+
+#soIcon {
+  font-size: 18x;
+  margin-top: 2px;
+ color:#f7f0d8;
+}
+
+#socialMediaResp {
+  display: none;
+}
+/* Main body styles */
+.other {
+  float: left;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.name {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Nazare', Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+h2 {
+  font-family: 'Nazare', Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+h3 {
+  font-family: 'Nazare', Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+h4 {
+  font-family: 'Nazare', Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  height: 50%;
+  max-width: 50%;
+  display: block;
+}
+
+.subBody {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 100%;
+}
+
+.subBody:after {
+  padding-bottom: 100%;
+}
+
+header {
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 1 !important;
+  width: 100% !important;
+}
+
+/* Resume Styles */
+p {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+#salutation {
+  font-family: 'Nazare', Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+#contactMe {
+  background-color: #f7f0d8;
+  padding-bottom: 30px;
+  box-shadow: 0 0 5px 30px #f7f0d8;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: auto;
+}
+
+#mainContent {
+  background-color: #f7f0d8;
+  box-shadow: 0 0 5px 30px #f7f0d8;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 150px;
+}
+
+#topLogo {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#portraitImage {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+
+#currentProjects {
+  border-style: solid;
+  border-color: #414141;
+  border-width: 2px;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+@media screen and (max-width: 718px) {
+  nav {
+    width: auto !important;
+    height: 40px !important;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    background-color: #f7f0d8;
+    box-shadow: 0 0 5px 30px #f7f0d8;
+    position: fixed;
+    text-align: center;
+  }
+
+  #socialMediaResp {
+    position: fixed;
+    display: block;
+    bottom: 0;
+    min-width: 100%;
+    height: 70px;
+    background-color: #f7f0d8;
+    box-shadow: 0 0 5px 30px #f7f0d8;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .socialMedia {
+    display: none;
+  }
+
+  #soIconResp {
+    color: #6a7d70 !important;
+    font-size: 18px;
+    margin-right: 25px !important;
+  }
+
+  #musicBox {
+    border: 0;
+    width: 350px;
+    height: 470px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+  #musicBoxResp {
+    display: block;
+    border: 0;
+    width: 170px;
+    height: 170px;
+    margin-left: 60px;
+  }
+
+  #musicBox {
+    display: none;
+  }
+
+  #musicLink {
+    display: none;
+  }
+}
+
+.vincitBackground {
+  background-color: #414141;
+}
+#vincitBack {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+@font-face {
+  font-family: Prospectus;
+  src: url(/assets/fonts/ProspectusStdBlk.otf);
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.badge {
+  margin-top: 30px;
+}
+
+/* Portfolio */
+
+.portImage {
+  width: 600px;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+/* Resume-Specific Styles */
+
+.workDate {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px !important;
+  height: auto;
+}
+
+#mainResumeContent {
+  background-color: #f7f0d8;
+  box-shadow: 0 0 5px 30px #f7f0d8;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
+#edu {
+  margin-top: 50px;
+}
+
+#cert {
+  margin-top: 50px;
+}
+
+#downArrow {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+#profExpTitle {
+  margin-bottom: 50px;
+}
+
+/* Music Page styles */
+#musicBoxContainer {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-color: #f7f0d8;
+  box-shadow: 0 0 5px 30px #f7f0d8;
+  overflow: visible;
+}
+
+#musicBox {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: 120px;
+  margin-left: 60px;
+}
+
+#musicBoxResp {
+  display: none;
+}
+
+.musicTitle {
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  width: 500px;
+  height: auto;
+}
+
+/* Portfolio styles */
+#portItem {
+  margin-bottom: 50px;
+}
+
+#portfolioBody {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+}
+
+#portItemModal {
+  width: 100%;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#splashWord1 {
+  font-family: BlackHanSans;
+  font-size: 200px;
+  color: #f7f0d8;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  line-height: .5;
+}
+
+#splashWord2 {
+  font-family: BlackHanSans;
+  font-size: 300px;
+  color: #f7f0d8;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  line-height: .6;
+}
+
+#splashWord4 {
+  font-family: BlackHanSans;
+  font-size: 400px;
+  color: #f7f0d8;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  line-height: .7;
+}
+
+#splashWord5 {
+  font-family: Yellowtail;
+  font-size: 30px;
+  color: #E74C32;
+  text-align: center;
+  background-color: #f7f0d8;
+  width:250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#enterButton {
+  width: 100px;
+  height: 50px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #f7f0d8 !important;
+  
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-4-28 11:10:47
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation text-flicker-in-glow
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+@keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    
+  }
+  100% {
+    opacity: 1;
+    
+  }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-4-28 11:25:0
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-4-28 11:26:25
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-in-ver-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-in-ver-bottom {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-bottom {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    opacity: 1;
+  }
+}
+
+
+
+.scale-in-ver-bottom {
+	-webkit-animation: scale-in-ver-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
+	        animation: scale-in-ver-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
+}
+
+.text-flicker-in-glow {
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+          animation: text-flicker-in-glow 4s linear both;
+  }
+
