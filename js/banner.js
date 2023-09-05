@@ -1,5 +1,3 @@
-
-
 configObj = {
   text: 'Hello! This site is currently undergoing maintenence and updates. Information listed may be temporarily incomplete or outdated.\nMore Updates to come.',
   bannerURL: 'https://www.ohwhataworld.net',
