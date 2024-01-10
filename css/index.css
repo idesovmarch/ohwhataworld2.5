@@ -343,6 +343,24 @@ p {
   margin-top: 300px;
 }
 
+#certImg {
+  width: 150px;
+  margin-bottom: 30px;
+  height:auto;
+}
+
+#certCont {
+  display: block;
+  float: left;
+  margin-left: 50px;
+}
+
+#bothCertImg {
+  margin-top: 50px;
+  margin-left: 200px;
+  display: block;
+}
+
 #edu {
   margin-top: 50px;
 }
