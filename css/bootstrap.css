@@ -2395,7 +2395,7 @@ textarea.form-control {
 }
 
 .btn:hover {
-  color: #212529;
+  color: #f73b77;
   text-decoration: none;
 }
 
@@ -2786,13 +2786,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-info {
-  color: #2F3A41;
-  border-color: #2F3A41;
+  color: #f73b77;
+  border-color: #f73b77;
 }
 
 .btn-outline-info:hover {
   color: #fff;
-  background-color: rgb(34, 41, 46);
+  background-color: #f73b77;
   border-color: rgb(34, 41, 46);
 }
 

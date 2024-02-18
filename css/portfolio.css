@@ -79,7 +79,7 @@ figure {
 .portfolio-header .profile-location {
   font-size: 14px;
   font-size: 1.4rem;
-  color: #717f9e;
+  color: #f73b77;
 }
 .portfolio-header .profile-location:before {
   margin-right: 10px;
@@ -586,17 +586,17 @@ a.nav-link {
 }
 h2 {
   font-family: 'Lilita One', cursive;
-  color: #2f3a41;
+  color: #f73b77;
 }
 
 h3 {
   font-family: 'Lilita One', cursive;
-  color: #2f3a41;
+  color: #f73b77;
 }
 
 h4 {
   font-family: 'Lilita One', cursive;
-  color: #2f3a41;
+  color: #f73b77;
   text-decoration: none;
 }
 
