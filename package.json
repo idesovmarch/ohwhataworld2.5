@@ -1,0 +1,26 @@
+{
+  "name": "ohwhataworld2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.814.0",
+    "express": "^4.17.1",
+    "node": "^21.6.2",
+    "sass": "^1.57.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-aws": "node aws-upload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idesovmarch/ohwhataworld2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idesovmarch/ohwhataworld2.0/issues"
+  },
+  "homepage": "https://github.com/idesovmarch/ohwhataworld2.0#readme"
+}
